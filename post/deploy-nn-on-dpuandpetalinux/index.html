@@ -3,10 +3,10 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Deploy Neural-Network on DPU&amp;PetaLinux | Xiuyuan Qi&#39;s Blog</title>
-<link rel="shortcut icon" href="https://heroamd.github.io/favicon.ico?v=1753002701938">
+<link rel="shortcut icon" href="https://xiuyuanqi.github.io/favicon.ico?v=1791985094927">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://heroamd.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Deploy Neural-Network on DPU&amp;PetaLinux | Xiuyuan Qi&#39;s Blog - Atom Feed" href="https://heroamd.github.io/atom.xml">
+<link rel="stylesheet" href="https://xiuyuanqi.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Deploy Neural-Network on DPU&amp;PetaLinux | Xiuyuan Qi&#39;s Blog - Atom Feed" href="https://xiuyuanqi.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
@@ -25,8 +25,8 @@ https://pynq.readthedocs.io/en/latest/overlay_design_methodology/bo..." />
     <div class="main">
       <div class="main-content">
         <div class="site-header">
-  <a href="https://heroamd.github.io">
-  <img class="avatar" src="https://heroamd.github.io/images/avatar.png?v=1753002701938" alt="">
+  <a href="https://xiuyuanqi.github.io">
+  <img class="avatar" src="https://xiuyuanqi.github.io/images/avatar.png?v=1791985094927" alt="">
   </a>
   <h1 class="site-title">
     Xiuyuan Qi&#39;s Blog
@@ -97,7 +97,7 @@ https://pynq.readthedocs.io/en/latest/overlay_design_methodology/bo..." />
                 26 min read
               </span>
               
-                <a href="https://heroamd.github.io/tag/I9UZxYTDE/" class="post-tag">
+                <a href="https://xiuyuanqi.github.io/tag/I9UZxYTDE/" class="post-tag">
                   # DPU
                 </a>
               
@@ -106,7 +106,7 @@ https://pynq.readthedocs.io/en/latest/overlay_design_methodology/bo..." />
             <div class="post-content-wrapper">
               <div class="post-content" v-pre>
                 <h2 id="pynq-z2">PYNQ Z2</h2>
-<figure data-type="image" tabindex="1"><img src="https://heroamd.github.io/post-images/1712555382079.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://xiuyuanqi.github.io/post-images/1712555382079.png" alt="" loading="lazy"></figure>
 <ol>
 <li>
 <p>download official board files for vivado.</p>
@@ -259,14 +259,14 @@ https://pynq.readthedocs.io/en/latest/overlay_design_methodology/bo..." />
 </tbody>
 </table>
 <p>As follow, you need to connect clk and clk_2x, rst separatly. On the left hand, from the properties to change Name. Connect port as following picture:</p>
-<figure data-type="image" tabindex="2"><img src="https://heroamd.github.io/post-images/image-20240123223617288-1706181430590-1.png" alt="image-20240123223617288" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://xiuyuanqi.github.io/post-images/image-20240123223617288-1706181430590-1.png" alt="image-20240123223617288" loading="lazy"></figure>
 <ol start="8">
 <li>
 <p>Pay attention to the dpu 'DATAWIDTH same with the PS HP AXI width. And modified clk_wizard rst as low activate.</p>
 </li>
 <li>
 <p>Assign Address. Auto and make sure the ps address is 16M.</p>
-<figure data-type="image" tabindex="3"><img src="https://heroamd.github.io/post-images/image-20240123223511384.png" alt="image-20240123223511384" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://xiuyuanqi.github.io/post-images/image-20240123223511384.png" alt="image-20240123223511384" loading="lazy"></figure>
 </li>
 <li>
 <p>Sources. Generate Output Products. Create HDL wrapper. Let Vivado manager wrapper and auto-update. Add XDC(If have). Generate bitstream.</p>
@@ -391,7 +391,7 @@ https://pynq.readthedocs.io/en/latest/overlay_design_methodology/bo..." />
 </tr>
 </tbody>
 </table>
-<figure data-type="image" tabindex="4"><img src="https://heroamd.github.io/post-images/image-20240123161441595.png" alt="image-20240123161441595" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://xiuyuanqi.github.io/post-images/image-20240123161441595.png" alt="image-20240123161441595" loading="lazy"></figure>
 </blockquote>
 <ol start="10">
 <li>
@@ -405,9 +405,9 @@ https://pynq.readthedocs.io/en/latest/overlay_design_methodology/bo..." />
 <p>[DRC UTLZ-1] Resource utilization: DSP48E1 over-utilized in Top Level Design (This design requires more DSP48E1 cells than are available in the target device. This design requires 709 of such cell types but only 220 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device.)</p>
 <ul>
 <li>Decrease IP size and retry</li>
-<li><img src="https://heroamd.github.io/post-images/image-20240124150827001.png" alt="image-20240124150827001" loading="lazy"></li>
-<li><img src="https://heroamd.github.io/post-images/image-20240123232611227.png" alt="image-20240123232611227" loading="lazy"></li>
-<li><img src="https://heroamd.github.io/post-images/image-20240123232627088.png" alt="image-20240123232627088" loading="lazy"></li>
+<li><img src="https://xiuyuanqi.github.io/post-images/image-20240124150827001.png" alt="image-20240124150827001" loading="lazy"></li>
+<li><img src="https://xiuyuanqi.github.io/post-images/image-20240123232611227.png" alt="image-20240123232611227" loading="lazy"></li>
+<li><img src="https://xiuyuanqi.github.io/post-images/image-20240123232627088.png" alt="image-20240123232627088" loading="lazy"></li>
 </ul>
 </blockquote>
 </li>
@@ -436,7 +436,7 @@ https://pynq.readthedocs.io/en/latest/overlay_design_methodology/bo..." />
 </li>
 </ul>
 </li>
-<li><img src="https://heroamd.github.io/post-images/image-20240123233953738.png" alt="image-20240123233953738" loading="lazy"></li>
+<li><img src="https://xiuyuanqi.github.io/post-images/image-20240123233953738.png" alt="image-20240123233953738" loading="lazy"></li>
 </ul>
 </blockquote>
 </li>
@@ -624,7 +624,7 @@ sudo apt update -y
 <ol start="16">
 <li>
 <p>Change Linux kernal settings(Exactly based on this <a href="http://www.aiotlab.org/teaching/fpga/DPU%20on%20PYNQ-Z2%20Petalinux.pdf">SLIDES</a>. 台北大学)</p>
-<figure data-type="image" tabindex="9"><img src="https://heroamd.github.io/post-images/image-20240124132633573.png" alt="image-20240124132633573" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="https://xiuyuanqi.github.io/post-images/image-20240124132633573.png" alt="image-20240124132633573" loading="lazy"></figure>
 </li>
 </ol>
 <ul>
@@ -796,7 +796,7 @@ petalinux-upgrade -u http://petalinux.xilinx.com/sswreleases/rel-v2022/sdkupdate
 <p>Run <code>petalinux-build</code></p>
 <blockquote>
 <p>**ERROR: ** (/home/xilinx/dpu_pynq_z2/components/yocto/layers/meta-openembedded/meta-oe/recipes-graphics/graphviz/graphviz_2.44.1.bb:do_configure) failed with exit code '1'</p>
-<figure data-type="image" tabindex="10"><img src="https://heroamd.github.io/post-images/image-20240124231103369.png" alt="image-20240124231103369" loading="lazy"></figure>
+<figure data-type="image" tabindex="10"><img src="https://xiuyuanqi.github.io/post-images/image-20240124231103369.png" alt="image-20240124231103369" loading="lazy"></figure>
 <p>Then. How  to solve this problem? What is sstate and what is Yocto?</p>
 <ul>
 <li>rootfs is a file system that be mounted first after Linux Kernel boot.  Booting Linux kernel need rootfs and linux kernel.</li>
@@ -830,13 +830,13 @@ SRCREV = &quot;c26eae36f034d5a2f9b2a7bfe816b8c43311a4f8&quot;
 <p><strong>But I finally not use this method but still solve this.</strong></p>
 </li>
 <li>
-<figure data-type="image" tabindex="11"><img src="https://heroamd.github.io/post-images/image-20240125003221978.png" alt="image-20240125003221978" loading="lazy"></figure>
+<figure data-type="image" tabindex="11"><img src="https://xiuyuanqi.github.io/post-images/image-20240125003221978.png" alt="image-20240125003221978" loading="lazy"></figure>
 </li>
 </ul>
 <p>About vitis-ai-3.0 compile error: recipe-sysroot-native/usr/lib/arm-xilinx-linux-gnueabi/gcc/arm-xilinx-linux-gnueabi/11.2.0/include/arm_neon.h:4403:50: error: argument 2 must be a constant immediate<br>
 4403 |   return (uint8x16_t)__builtin_neon_vshru_nv16qi ((int8x16_t) __a, __b);</p>
 <blockquote>
-<figure data-type="image" tabindex="12"><img src="https://heroamd.github.io/post-images/image-20240125155942653.png" alt="image-20240125155942653" loading="lazy"></figure>
+<figure data-type="image" tabindex="12"><img src="https://xiuyuanqi.github.io/post-images/image-20240125155942653.png" alt="image-20240125155942653" loading="lazy"></figure>
 </blockquote>
 <p>Try to use the second method and try again. (Install Runtime version driver), but Here is the troubleshoot:</p>
 <img src="./pic/image-20240125211103725.png" alt="image-20240125211103725" style="zoom:50%;" />
@@ -857,7 +857,7 @@ SRCREV = &quot;c26eae36f034d5a2f9b2a7bfe816b8c43311a4f8&quot;
 <ol>
 <li>use ezone and username to download files</li>
 </ol>
-<figure data-type="image" tabindex="13"><img src="https://heroamd.github.io/post-images/image-20240126093553187.png" alt="image-20240126093553187" loading="lazy"></figure>
+<figure data-type="image" tabindex="13"><img src="https://xiuyuanqi.github.io/post-images/image-20240126093553187.png" alt="image-20240126093553187" loading="lazy"></figure>
 <ol start="2">
 <li>
 <p>replace the <code>image_util.cpp</code>to the path <code>/home/xilinx/dpu_pynq_z2/build/tmp/work/cortexa9t2hf-neon-xilinx-linux-gnueabi/vitis-ai-library/3.0-r0/git/src/vai_library/math</code></p>
@@ -1048,14 +1048,14 @@ petalinux-package --boot --u-boot pre-built/linux/images/u-boot.elf --dtb pre-bu
 <h2 id="deployment">Deployment</h2>
 <p>follow this url: https://github.com/Xilinx/Vitis-AI-Tutorials/tree/1.4/Feature_Tutorials/pytorch-subgraphs</p>
 <p>I meet this Error:</p>
-<figure data-type="image" tabindex="14"><img src="https://heroamd.github.io/post-images/image-20240227171332078.png" alt="image-20240227171332078" loading="lazy"></figure>
+<figure data-type="image" tabindex="14"><img src="https://xiuyuanqi.github.io/post-images/image-20240227171332078.png" alt="image-20240227171332078" loading="lazy"></figure>
 <p>Thus, I follow <a href="https://support.xilinx.com/s/question/0D52E00006hpYnISAU/missing-libvartcpurunnerso-on-zcu104?language=en_US">this solution</a> that let me try Graph::runner and meet:</p>
-<figure data-type="image" tabindex="15"><img src="https://heroamd.github.io/post-images/image-20240227171456162.png" alt="image-20240227171456162" loading="lazy"></figure>
+<figure data-type="image" tabindex="15"><img src="https://xiuyuanqi.github.io/post-images/image-20240227171456162.png" alt="image-20240227171456162" loading="lazy"></figure>
 <p>Following <a href="https://xilinx.github.io/Vitis-AI//3.5/html/doxygen/api/python/create__graph__runner_8py.html">this Pages</a>. I try Graph runner but I find graph api only support full graph but not support subgraph. What is the different between XIR and VART?</p>
 <blockquote>
 <p>Xilinx Intermediate Representation (XIR) is a graph-based intermediate representation of the AI algorithms which is designed for compilation and efficient deployment of the DPU on the FPGA platform.</p>
 </blockquote>
-<figure data-type="image" tabindex="16"><img src="https://heroamd.github.io/post-images/image-20240227171708215.png" alt="image-20240227171708215" loading="lazy"></figure>
+<figure data-type="image" tabindex="16"><img src="https://xiuyuanqi.github.io/post-images/image-20240227171708215.png" alt="image-20240227171708215" loading="lazy"></figure>
 <p>Aditionally: How to make sure DPU driver is integrated properly?</p>
 <ul>
 <li><code>lsmod</code></li>
@@ -1084,7 +1084,7 @@ petalinux-package --boot --u-boot pre-built/linux/images/u-boot.elf --dtb pre-bu
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://heroamd.github.io/post/recordon-headless-server-install-with-no-root-permission-mesaosmesa-to-use-pyrenderoffscreen-render/">
+            <a href="https://xiuyuanqi.github.io/post/recordon-headless-server-install-with-no-root-permission-mesaosmesa-to-use-pyrenderoffscreen-render/">
               <h3 class="post-title">
                 Record：On headless server install (with no root permission) mesa/osmesa to use pyrender.offscreen render
               </h3>
@@ -1134,7 +1134,7 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-  <a class="rss" href="https://heroamd.github.io/atom.xml" target="_blank">
+  <a class="rss" href="https://xiuyuanqi.github.io/atom.xml" target="_blank">
     <i class="ri-rss-line"></i> RSS
   </a>
 </div>

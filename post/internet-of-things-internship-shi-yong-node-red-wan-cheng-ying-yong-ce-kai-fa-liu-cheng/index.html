@@ -3,10 +3,10 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Internet of Things internship: Using node-red Complete the application side development process | Xiuyuan Qi&#39;s Blog</title>
-<link rel="shortcut icon" href="https://heroamd.github.io/favicon.ico?v=1753002701938">
+<link rel="shortcut icon" href="https://xiuyuanqi.github.io/favicon.ico?v=1791985094927">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://heroamd.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Internet of Things internship: Using node-red Complete the application side development process | Xiuyuan Qi&#39;s Blog - Atom Feed" href="https://heroamd.github.io/atom.xml">
+<link rel="stylesheet" href="https://xiuyuanqi.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Internet of Things internship: Using node-red Complete the application side development process | Xiuyuan Qi&#39;s Blog - Atom Feed" href="https://xiuyuanqi.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
@@ -22,8 +22,8 @@
     <div class="main">
       <div class="main-content">
         <div class="site-header">
-  <a href="https://heroamd.github.io">
-  <img class="avatar" src="https://heroamd.github.io/images/avatar.png?v=1753002701938" alt="">
+  <a href="https://xiuyuanqi.github.io">
+  <img class="avatar" src="https://xiuyuanqi.github.io/images/avatar.png?v=1791985094927" alt="">
   </a>
   <h1 class="site-title">
     Xiuyuan Qi&#39;s Blog
@@ -94,7 +94,7 @@
                 6 min read
               </span>
               
-                <a href="https://heroamd.github.io/tag/-GsmJFOrl/" class="post-tag">
+                <a href="https://xiuyuanqi.github.io/tag/-GsmJFOrl/" class="post-tag">
                   # IoT
                 </a>
               
@@ -102,7 +102,7 @@
             
             <div class="post-content-wrapper">
               <div class="post-content" v-pre>
-                <figure data-type="image" tabindex="1"><img src="https://heroamd.github.io/post-images/1712557222680.jpg" alt="" loading="lazy"></figure>
+                <figure data-type="image" tabindex="1"><img src="https://xiuyuanqi.github.io/post-images/1712557222680.jpg" alt="" loading="lazy"></figure>
 <h3 id="一-node-red背景介绍">一、<strong>Node-RED背景介绍</strong></h3>
 <p>·     Node-Red是IBM公司开发的一个可视化的编程工具。它允许程序员通过组合各部件来编写应用程序。这些部件可以是硬件设备(如：Arduino板子)、Web API(如：WebSocket in和WebSocket out)、功能函数(如：range)或者在线服务(如：email)。</p>
 <p>·     Node-Red提供基于网页的编程环境。通过拖拽已定义node到工作区并用线连接node创建数据流来实现编程。程序员通过点击‘Deploy’按钮实现一键保存并执行。程序以JSON字符串的格式保存，方便用户分享、修改。</p>
@@ -115,42 +115,42 @@
 <h5 id="1-简介">1、简介</h5>
 <p>IBM公司开发，可视化编程工具，可以应用于各种硬件设备，基于网页编程环境，基于Node.js（npm是包管理器，全球最大的生态系统）。</p>
 <p>Node-RED 连接输入节点和输出节点是采用数据流的方式，部署按键有两个功能，一、保存；二、部署。在添加节点之后节点的右上角有一个蓝色的圆点，这个圆点的意思是，此节点还没有部署和保存。</p>
-<figure data-type="image" tabindex="2"><img src="https://heroamd.github.io/post-images/%E5%9B%BE%E7%89%871.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://xiuyuanqi.github.io/post-images/%E5%9B%BE%E7%89%871.png" alt="" loading="lazy"></figure>
 <h5 id="2-调试">2、调试</h5>
 <p>“inject”节点可以手动输入消息，节点左侧有一个小按钮，点击按钮可以手动注入消息。</p>
-<figure data-type="image" tabindex="3"><img src="https://heroamd.github.io/post-images/%E5%9B%BE%E7%89%872.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://xiuyuanqi.github.io/post-images/%E5%9B%BE%E7%89%872.png" alt="" loading="lazy"></figure>
 <p>在点击inject节点的按钮之前，必须确保debug节点是可用的，即按钮必须是“伸出来”的，而不是像按钮3一样“缩回去”，按钮“缩回去”的debug节点不工作。点击按钮可以切换节点是否工作。</p>
-<figure data-type="image" tabindex="4"><img src="https://heroamd.github.io/post-images/%E5%9B%BE%E7%89%873.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://xiuyuanqi.github.io/post-images/%E5%9B%BE%E7%89%873.png" alt="" loading="lazy"></figure>
 <h4 id="四-常用控件介绍">四、常用控件介绍</h4>
 <h5 id="1-inject注入输入时间戳">1、inject注入，输入时间戳</h5>
-<figure data-type="image" tabindex="5"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210711144125.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="6"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714125152.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210711144125.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714125152.jpg" alt="" loading="lazy"></figure>
 <p>时间在线计算器：<a href="http://tool.chinaz.com/tools/unixTime.aspx">入口</a></p>
-<figure data-type="image" tabindex="7"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714125314.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714125314.jpg" alt="" loading="lazy"></figure>
 <p>如需输入数组，在“内容”一栏，要选择二进制，并且手动添加英文字符中的括号与逗号。</p>
-<figure data-type="image" tabindex="8"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714125345.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="9"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714125434.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="10"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714125509.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714125345.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714125434.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="10"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714125509.jpg" alt="" loading="lazy"></figure>
 <p>总结：inject需要了解的参数有：时间戳、内容和主题。其中内容主要用到数字和二进制流两类，二进制流指的是数组。内容可以为十进制也可以为十六进制，还可以输入ASCII码，利用inject的二进制流可以进行ASCII码与字符的转换（需要在缓冲区编辑器中查看），如果需要输入回车换行等无法在文字列中中输出的字符必须用ASCII码来表示。</p>
 <h5 id="2-主题与名称">2、主题与名称</h5>
-<figure data-type="image" tabindex="11"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714130000.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="12"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714130251.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="11"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714130000.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="12"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714130251.jpg" alt="" loading="lazy"></figure>
 <p>总结：节点属性中也可以配置主题（topic）与名称（name）。name属性只影响了工作区中节点的外观，并没有影响流中数据包的内容。<br>
 Topic是数据包本身带的一个属性，其信息会随着数据包下发。在后续的学习中，经常会用到topic来判断数据包的来源。</p>
 <h5 id="3-重复发送">3、重复发送</h5>
 <p>使用间隔和特定时间间隔两种， &quot;特定时间内间隔&quot; 和 &quot;特定时间&quot; 会使用cron系统。区别在于cron系统的时间只看“整”的时间，或者说“标准的”时间，并不关心程序是什么时候开始运行的。</p>
-<figure data-type="image" tabindex="13"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714131308.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="13"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714131308.jpg" alt="" loading="lazy"></figure>
 <h5 id="4-debug控件介绍">4、Debug控件介绍</h5>
-<figure data-type="image" tabindex="14"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714131729.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="14"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714131729.jpg" alt="" loading="lazy"></figure>
 <p>调试窗口自带有过滤功能，可以过滤掉不需要的消息。</p>
-<figure data-type="image" tabindex="15"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714131822.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="16"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714131954.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="15"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714131822.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="16"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714131954.jpg" alt="" loading="lazy"></figure>
 <h5 id="5-switch控件">5、Switch控件</h5>
 <p>Switch本意是开关、转换，用在node-red里有点像一个岔路口，node-red里边有数据流，数据流可能有不同的分支，在“岔路口”管理数据流向的。Switch控件可以根据数据的topic或是payload，或者其它属性来判断数据该流向哪一个出口。</p>
 <p>使用switch判断数组：1、将inject注入内容改为数组    2、将switch节点改为payload[1]：</p>
-<figure data-type="image" tabindex="17"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714132317.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="17"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714132317.jpg" alt="" loading="lazy"></figure>
 <h5 id="6-函数控件实现多个输出">6、函数控件实现多个输出</h5>
-<figure data-type="image" tabindex="18"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714133758.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="18"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714133758.jpg" alt="" loading="lazy"></figure>
 <p>从严谨的角度来讲，函数控件中的return不应该称为“返回值”，应为它没有返回任何一个东西给“调用”它的节点。它真正的作用，是传递参数给下一个节点。所谓的返回值，只是一个习惯性的说法而已。</p>
 <h5 id="7-通过判断语句进行数据分类">7、通过判断语句进行数据分类</h5>
 <p>输入与输出不变，把函数节点替换掉switch节点，并修改代码：</p>
@@ -162,24 +162,24 @@ Topic是数据包本身带的一个属性，其信息会随着数据包下发。
     return[null,null,msg];   //分别代表第一路，第二路，第三路输出
 }
 </code></pre>
-<figure data-type="image" tabindex="19"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714135422.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="19"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714135422.jpg" alt="" loading="lazy"></figure>
 <p>注意：三个等号我们称为等同符,当等号两边的值为相同类型的时候,直接比较等号两边的值,值相同则返回true,若等号两边的值类型不同时直接返回false。</p>
 <h5 id="8-单个数字的计算">8、单个数字的计算</h5>
 <p>用函数节点对数字进行计算  :  var newMsg = {payload: msg.payload * 2 }语句的意思是，新建一个对象，名为newMsg，它有payload属性，并且payload的值为msg.payload的两倍。最后返回的是newMsg，也就是新建的这个对象。</p>
-<figure data-type="image" tabindex="20"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714135610.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="20"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714135610.jpg" alt="" loading="lazy"></figure>
 <p>注意：return的返回值时下一个节点的payload</p>
 <p>如果不希望新建一个对象，直接修改msg.payload的方法：</p>
 <pre><code class="language-C">msg.payload = msg.payload*2;
 return msg;
 </code></pre>
 <h5 id="9-使用数组进行数据的截取与组装">9、使用数组进行数据的截取与组装</h5>
-<figure data-type="image" tabindex="21"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714135913.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="21"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714135913.jpg" alt="" loading="lazy"></figure>
 <h4 id="五-串口固件的使用">五、串口固件的使用</h4>
 <p>默认情况下，node-red并不会带有串口控件。我们可以进行手动安装。</p>
 <p>安装之后对串口进行连接，使用串口助手打开COM11，并设置为“非HEX显示”, “非HEX发送”。</p>
-<figure data-type="image" tabindex="22"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714141138.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="22"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714141138.jpg" alt="" loading="lazy"></figure>
 <p>在查询为COM11之后关闭串口助手的连接，在Node-RED中连接串口如图同时在serious-OUT和Serious-IN设置如下：</p>
-<figure data-type="image" tabindex="23"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714141506.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="23"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210714141506.jpg" alt="" loading="lazy"></figure>
 
               </div>
               <div class="toc-container">
@@ -227,7 +227,7 @@ return msg;
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://heroamd.github.io/post/internet-of-things-internship-bc26-ming-ling-he-mo-zu-shi-yong-shi-yong-mqttfx-wan-cheng-she-bei-ce-kai-fa/">
+            <a href="https://xiuyuanqi.github.io/post/internet-of-things-internship-bc26-ming-ling-he-mo-zu-shi-yong-shi-yong-mqttfx-wan-cheng-she-bei-ce-kai-fa/">
               <h3 class="post-title">
                 Internet of Things internship: BC26 command and module, using MQTT.fx for device development
               </h3>
@@ -277,7 +277,7 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-  <a class="rss" href="https://heroamd.github.io/atom.xml" target="_blank">
+  <a class="rss" href="https://xiuyuanqi.github.io/atom.xml" target="_blank">
     <i class="ri-rss-line"></i> RSS
   </a>
 </div>

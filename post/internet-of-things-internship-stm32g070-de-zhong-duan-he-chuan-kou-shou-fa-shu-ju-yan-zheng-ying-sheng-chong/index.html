@@ -3,10 +3,10 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Internet of Things internship: STM32G070 Interrupt and serial transceiver data verification, yes man | Xiuyuan Qi&#39;s Blog</title>
-<link rel="shortcut icon" href="https://heroamd.github.io/favicon.ico?v=1753002701938">
+<link rel="shortcut icon" href="https://xiuyuanqi.github.io/favicon.ico?v=1791985094927">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://heroamd.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Internet of Things internship: STM32G070 Interrupt and serial transceiver data verification, yes man | Xiuyuan Qi&#39;s Blog - Atom Feed" href="https://heroamd.github.io/atom.xml">
+<link rel="stylesheet" href="https://xiuyuanqi.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Internet of Things internship: STM32G070 Interrupt and serial transceiver data verification, yes man | Xiuyuan Qi&#39;s Blog - Atom Feed" href="https://xiuyuanqi.github.io/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
@@ -30,8 +30,8 @@
     <div class="main">
       <div class="main-content">
         <div class="site-header">
-  <a href="https://heroamd.github.io">
-  <img class="avatar" src="https://heroamd.github.io/images/avatar.png?v=1753002701938" alt="">
+  <a href="https://xiuyuanqi.github.io">
+  <img class="avatar" src="https://xiuyuanqi.github.io/images/avatar.png?v=1791985094927" alt="">
   </a>
   <h1 class="site-title">
     Xiuyuan Qi&#39;s Blog
@@ -102,7 +102,7 @@
                 3 min read
               </span>
               
-                <a href="https://heroamd.github.io/tag/-GsmJFOrl/" class="post-tag">
+                <a href="https://xiuyuanqi.github.io/tag/-GsmJFOrl/" class="post-tag">
                   # IoT
                 </a>
               
@@ -110,7 +110,7 @@
             
             <div class="post-content-wrapper">
               <div class="post-content" v-pre>
-                <figure data-type="image" tabindex="1"><img src="https://heroamd.github.io/post-images/1712557222680.jpg" alt="" loading="lazy"></figure>
+                <figure data-type="image" tabindex="1"><img src="https://xiuyuanqi.github.io/post-images/1712557222680.jpg" alt="" loading="lazy"></figure>
 <h4 id="学习内容">学习内容</h4>
 <ul>
 <li>熟悉配置STM32G0系列单片机的多种中断调用机制</li>
@@ -118,12 +118,12 @@
 <li>使用STM32G0单片机完成应声虫实验</li>
 </ul>
 <h4 id="一-stm32单片机的串口收发数据的通信方式">一、STM32单片机的串口收发数据的通信方式</h4>
-<figure data-type="image" tabindex="2"><img src="https://heroamd.github.io/post-images/%5DUUKU6CWZZQPGZ3KJBS%6037H.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="3"><img src="https://heroamd.github.io/post-images/4324234234234.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://xiuyuanqi.github.io/post-images/%5DUUKU6CWZZQPGZ3KJBS%6037H.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://xiuyuanqi.github.io/post-images/4324234234234.jpg" alt="" loading="lazy"></figure>
 <p>首先在CubeMX中配置串口，将PA9和PA10配置为串口1的发送和接收脚，并将引脚配置为“connectivity”模式，将UART1配置为异步模式。</p>
-<figure data-type="image" tabindex="4"><img src="https://heroamd.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210715161634.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://xiuyuanqi.github.io/post-images/QQ%E6%88%AA%E5%9B%BE20210715161634.jpg" alt="" loading="lazy"></figure>
 <p>阻塞式串口发送数据不需要开启中断，在系统核心选项中启动串口1的全局中断，</p>
-<figure data-type="image" tabindex="5"><img src="https://heroamd.github.io/post-images/image-20210715162220981.png" alt="image-20210715162220981" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://xiuyuanqi.github.io/post-images/image-20210715162220981.png" alt="image-20210715162220981" loading="lazy"></figure>
 <p>串口的工作方式：1、轮询模式</p>
 <p>2、中断方式：注意收到多少字节进入中断，如果设置逐个字节进入中断，则收到大字节数据之后可能会造成频繁进入终端导致通信失败。</p>
 <p>3、DMA方式：CPU等内存接收完成之后产生DMA中断通知CPU。</p>
@@ -145,23 +145,23 @@
     }
 </code></pre>
 <p>&amp;huart1是句柄<br>
-<img src="https://heroamd.github.io/post-images/image-20210715214203443.png" alt="image-20210715214203443" loading="lazy"></p>
+<img src="https://xiuyuanqi.github.io/post-images/image-20210715214203443.png" alt="image-20210715214203443" loading="lazy"></p>
 <p>定义一个全局句柄：</p>
-<figure data-type="image" tabindex="6"><img src="https://heroamd.github.io/post-images/image-20210715214321094.png" alt="image-20210715214321094" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://xiuyuanqi.github.io/post-images/image-20210715214321094.png" alt="image-20210715214321094" loading="lazy"></figure>
 <p>实现功能：</p>
-<figure data-type="image" tabindex="7"><img src="https://heroamd.github.io/post-images/image-20210715215053783.png" alt="image-20210715215053783" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://xiuyuanqi.github.io/post-images/image-20210715215053783.png" alt="image-20210715215053783" loading="lazy"></figure>
 <p>printf加入重定向功能：#include &quot;stdio.h&quot;：</p>
-<figure data-type="image" tabindex="8"><img src="https://heroamd.github.io/post-images/image-20210715215704642.png" alt="image-20210715215704642" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://xiuyuanqi.github.io/post-images/image-20210715215704642.png" alt="image-20210715215704642" loading="lazy"></figure>
 <p>该段代码有问题：事件触发中断，中断随手处理事件，有些事件比较浪费时间，有些事件会因此丢失：解决方法，在中断中只去设置事件，处理放在主函数的死循环里，通过全局标志位flag来控制。</p>
 <p>#####　2、自定帧通信协议</p>
-<figure data-type="image" tabindex="9"><img src="https://heroamd.github.io/post-images/image-20210715220439167.png" alt="image-20210715220439167" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="https://xiuyuanqi.github.io/post-images/image-20210715220439167.png" alt="image-20210715220439167" loading="lazy"></figure>
 <p>采用ASCII码的发送方式</p>
-<figure data-type="image" tabindex="10"><img src="https://heroamd.github.io/post-images/image-20210715220629858.png" alt="image-20210715220629858" loading="lazy"></figure>
-<figure data-type="image" tabindex="11"><img src="https://heroamd.github.io/post-images/image-20210715221029493.png" alt="image-20210715221029493" loading="lazy"></figure>
+<figure data-type="image" tabindex="10"><img src="https://xiuyuanqi.github.io/post-images/image-20210715220629858.png" alt="image-20210715220629858" loading="lazy"></figure>
+<figure data-type="image" tabindex="11"><img src="https://xiuyuanqi.github.io/post-images/image-20210715221029493.png" alt="image-20210715221029493" loading="lazy"></figure>
 <p>extern是不能赋初值的。</p>
 <h4 id="二-应声虫实验-测试串口能够收到数据截断数据发送数据">二、应声虫实验--测试串口能够收到数据，截断数据，发送数据</h4>
 <p>应声虫实验思路：利用串口发送数据标志位UartIReceiveflag为1，表明数据接收完成，存放在接收数组UartlreceiⅴeBuf中，之后将收到的数据原样的发送会回去，并清除标志位。Uart1ReceiveFlag、Uart1ReceiveBuf以及Uart1Receivecnt三个全局变量的应用。如果单片机串口接收到串口数据，就会调用串口中断回调函数HAL UART RXCplt Callback，在此函数内把刚收到的1个字节放到数组 Uart1ReceiveBuf中Uart1Receive（nt作为计数器，同时也是数组的索引，记录这个字节该放到数组的哪个位置上，然后计数器+1，下次收到的数据放到后一个位置上。如果刚收到的这个字节是结束符，那么接收完成标记 UartIReceiveFlag=1。使用完接收的数据以后，记得把标志位、数组、计数器清零。</p>
-<figure data-type="image" tabindex="12"><img src="https://heroamd.github.io/post-images/image-20210715222113829.png" alt="image-20210715222113829" loading="lazy"></figure>
+<figure data-type="image" tabindex="12"><img src="https://xiuyuanqi.github.io/post-images/image-20210715222113829.png" alt="image-20210715222113829" loading="lazy"></figure>
 
               </div>
               <div class="toc-container">
@@ -191,7 +191,7 @@
         
           <div class="next-post">
             <div class="next">下一篇</div>
-            <a href="https://heroamd.github.io/post/internet-of-things-internship-shi-yong-ji-cun-qi-dui-stm32g0-kong-zhi/">
+            <a href="https://xiuyuanqi.github.io/post/internet-of-things-internship-shi-yong-ji-cun-qi-dui-stm32g0-kong-zhi/">
               <h3 class="post-title">
                 Internet of Things internship: Control by using register on STM32G0
               </h3>
@@ -241,7 +241,7 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-  <a class="rss" href="https://heroamd.github.io/atom.xml" target="_blank">
+  <a class="rss" href="https://xiuyuanqi.github.io/atom.xml" target="_blank">
     <i class="ri-rss-line"></i> RSS
   </a>
 </div>

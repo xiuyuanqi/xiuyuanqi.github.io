@@ -1,83 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://heroamd.github.io</id>
+    <id>https://xiuyuanqi.github.io</id>
     <title>Xiuyuan Qi&apos;s Blog</title>
-    <updated>2025-07-20T09:11:45.423Z</updated>
+    <updated>2026-10-14T13:38:21.667Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://heroamd.github.io"/>
-    <link rel="self" href="https://heroamd.github.io/atom.xml"/>
+    <link rel="alternate" href="https://xiuyuanqi.github.io"/>
+    <link rel="self" href="https://xiuyuanqi.github.io/atom.xml"/>
     <subtitle>Go for the TRUTH!</subtitle>
-    <logo>https://heroamd.github.io/images/avatar.png</logo>
-    <icon>https://heroamd.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2025, Xiuyuan Qi&apos;s Blog</rights>
+    <logo>https://xiuyuanqi.github.io/images/avatar.png</logo>
+    <icon>https://xiuyuanqi.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2026, Xiuyuan Qi&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[念念不忘，必有回响 —— Gridea Pro，我们回来了]]></title>
+        <id>https://xiuyuanqi.github.io/post/hello-gridea-pro/</id>
+        <link href="https://xiuyuanqi.github.io/post/hello-gridea-pro/">
+        </link>
+        <updated>2026-10-14T13:18:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>你好，欢迎来到 <strong>Gridea Pro</strong>。</p>
+<p>如果你正在读这篇文章，说明你已经迈出了最重要的一步——决定拥有一个属于自己的博客。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>你好，欢迎来到 <strong>Gridea Pro</strong>。</p>
+<p>如果你正在读这篇文章，说明你已经迈出了最重要的一步——决定拥有一个属于自己的博客。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gridea Pro 完全上手指南 —— 从写作到发布，一篇搞定]]></title>
+        <id>https://xiuyuanqi.github.io/post/quick-start/</id>
+        <link href="https://xiuyuanqi.github.io/post/quick-start/">
+        </link>
+        <updated>2026-10-14T13:17:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>这篇指南会带你一步一步熟悉 Gridea Pro 的界面和操作，从写第一篇文章到把博客发布到互联网上。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这篇指南会带你一步一步熟悉 Gridea Pro 的界面和操作，从写第一篇文章到把博客发布到互联网上。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[都 2026 年了，我们为什么还要写博客]]></title>
+        <id>https://xiuyuanqi.github.io/post/why-we-write/</id>
+        <link href="https://xiuyuanqi.github.io/post/why-we-write/">
+        </link>
+        <updated>2026-10-14T13:16:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>你有没有过这样的时刻——</p>
+<p>某天深夜，突然想起一个很久没联系的人，想跟他说点什么，却发现你们之间已经隔了太多年的空白，连开口的理由都找不到了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>你有没有过这样的时刻——</p>
+<p>某天深夜，突然想起一个很久没联系的人，想跟他说点什么，却发现你们之间已经隔了太多年的空白，连开口的理由都找不到了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[独立博客没有死，正在死的是平庸的博客]]></title>
+        <id>https://xiuyuanqi.github.io/post/indie-blog-is-not-dead/</id>
+        <link href="https://xiuyuanqi.github.io/post/indie-blog-is-not-dead/">
+        </link>
+        <updated>2026-10-14T13:15:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>你可能听过很多次这样的说法：&quot;博客已经过时了&quot;、&quot;现在谁还看博客&quot;、&quot;有公众号和小红书就够了&quot;。</p>
+<p>但事实是——2026 年的今天，全球有超过 6 亿个博客，每天产生 750 万篇新文章，77% 的互联网用户仍然在定期阅读博客。</p>
+<p>博客从未死过。真正在死的，是那些没有灵魂的博客。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>你可能听过很多次这样的说法：&quot;博客已经过时了&quot;、&quot;现在谁还看博客&quot;、&quot;有公众号和小红书就够了&quot;。</p>
+<p>但事实是——2026 年的今天，全球有超过 6 亿个博客，每天产生 750 万篇新文章，77% 的互联网用户仍然在定期阅读博客。</p>
+<p>博客从未死过。真正在死的，是那些没有灵魂的博客。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我为什么复活了 Gridea —— 每个想写点什么的人，都值得一个更简单的开始]]></title>
+        <id>https://xiuyuanqi.github.io/post/why-i-revived-gridea/</id>
+        <link href="https://xiuyuanqi.github.io/post/why-i-revived-gridea/">
+        </link>
+        <updated>2026-10-14T13:14:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>2022 年 5 月 17 日，Gridea 发布了它的最后一个版本 v0.9.3。</p>
+<p>此后，再也没有更新过。Issues 无人回复，PR 无人合并。一个曾经帮助 28,000 多位用户搭建了自己博客的工具，就这样安静地停在了那里。</p>
+<p>我是那 28,000 人中的一个。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>2022 年 5 月 17 日，Gridea 发布了它的最后一个版本 v0.9.3。</p>
+<p>此后，再也没有更新过。Issues 无人回复，PR 无人合并。一个曾经帮助 28,000 多位用户搭建了自己博客的工具，就这样安静地停在了那里。</p>
+<p>我是那 28,000 人中的一个。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[👋很高兴认识你，这是我的ADVX25自我介绍👈]]></title>
-        <id>https://heroamd.github.io/post/hen-gao-xing-ren-shi-ni-zhe-shi-wo-de-advx25-zi-wo-jie-shao/</id>
-        <link href="https://heroamd.github.io/post/hen-gao-xing-ren-shi-ni-zhe-shi-wo-de-advx25-zi-wo-jie-shao/">
+        <id>https://xiuyuanqi.github.io/post/hen-gao-xing-ren-shi-ni-zhe-shi-wo-de-advx25-zi-wo-jie-shao/</id>
+        <link href="https://xiuyuanqi.github.io/post/hen-gao-xing-ren-shi-ni-zhe-shi-wo-de-advx25-zi-wo-jie-shao/">
         </link>
         <updated>2025-07-20T07:19:41.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[About Me]]></title>
-        <id>https://heroamd.github.io/post/cover-letter/</id>
-        <link href="https://heroamd.github.io/post/cover-letter/">
+        <id>https://xiuyuanqi.github.io/post/cover-letter/</id>
+        <link href="https://xiuyuanqi.github.io/post/cover-letter/">
         </link>
         <updated>2024-05-17T08:30:37.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Compare Ascend 910 with A100]]></title>
-        <id>https://heroamd.github.io/post/compare-ascend-910-with-a100/</id>
-        <link href="https://heroamd.github.io/post/compare-ascend-910-with-a100/">
+        <id>https://xiuyuanqi.github.io/post/compare-ascend-910-with-a100/</id>
+        <link href="https://xiuyuanqi.github.io/post/compare-ascend-910-with-a100/">
         </link>
         <updated>2024-04-11T03:38:02.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Analyse DSA ASIC architecture performance]]></title>
-        <id>https://heroamd.github.io/post/analyse-dsa-asic-architecture-performance/</id>
-        <link href="https://heroamd.github.io/post/analyse-dsa-asic-architecture-performance/">
+        <id>https://xiuyuanqi.github.io/post/analyse-dsa-asic-architecture-performance/</id>
+        <link href="https://xiuyuanqi.github.io/post/analyse-dsa-asic-architecture-performance/">
         </link>
         <updated>2024-04-09T14:53:04.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[How to use Typora write and Gridea deploy your BLOG?]]></title>
-        <id>https://heroamd.github.io/post/how-to-use-typora-write-and-gridea-deploy/</id>
-        <link href="https://heroamd.github.io/post/how-to-use-typora-write-and-gridea-deploy/">
+        <id>https://xiuyuanqi.github.io/post/how-to-use-typora-write-and-gridea-deploy/</id>
+        <link href="https://xiuyuanqi.github.io/post/how-to-use-typora-write-and-gridea-deploy/">
         </link>
         <updated>2024-04-08T12:13:57.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deploy Neural-Network on DPU&PetaLinux]]></title>
-        <id>https://heroamd.github.io/post/deploy-nn-on-dpuandpetalinux/</id>
-        <link href="https://heroamd.github.io/post/deploy-nn-on-dpuandpetalinux/">
-        </link>
-        <updated>2024-02-08T02:51:28.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Record：On headless server install (with no root permission) mesa/osmesa to use pyrender.offscreen render]]></title>
-        <id>https://heroamd.github.io/post/recordon-headless-server-install-with-no-root-permission-mesaosmesa-to-use-pyrenderoffscreen-render/</id>
-        <link href="https://heroamd.github.io/post/recordon-headless-server-install-with-no-root-permission-mesaosmesa-to-use-pyrenderoffscreen-render/">
-        </link>
-        <updated>2024-01-05T16:40:45.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenMV optocoupler and RS232 communication]]></title>
-        <id>https://heroamd.github.io/post/openmv-optocoupler-and-232-communication/</id>
-        <link href="https://heroamd.github.io/post/openmv-optocoupler-and-232-communication/">
-        </link>
-        <updated>2021-08-13T12:20:25.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[STC15 project to hierarchy schematic diagram]]></title>
-        <id>https://heroamd.github.io/post/stc15-project-to-hierarchy-schematic-diagram/</id>
-        <link href="https://heroamd.github.io/post/stc15-project-to-hierarchy-schematic-diagram/">
-        </link>
-        <updated>2021-07-23T14:20:25.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From STC15 to Power integrity design]]></title>
-        <id>https://heroamd.github.io/post/from-stc15-to-power-integrity-design/</id>
-        <link href="https://heroamd.github.io/post/from-stc15-to-power-integrity-design/">
-        </link>
-        <updated>2021-07-22T12:24:25.000Z</updated>
     </entry>
 </feed>
